@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <h2>Rellena tu formulario para participar!!!</h2>
+    </title>
+    <link rel="stylesheet" href="Ejercicio2.css">
+</head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="https://image.freepik.com/vector-gratis/equipo-plantilla-logotipo-vintage-bicicleta-montana-e-ilustracion-ciclista_159993-102.jpg">
+<title>Formulario</title>
+<form action="" method="post">
+     <ul>
+        <li>
+            <label for="name">Nombres:</label>
+            <input type="text" id="name" name="txt_name"pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" required /><br>
+        </li>
+        <li>
+            <label for="surname">Primer Apellido:</label>
+            <input type="text" id="surname" name="txt_surname" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}" required /><br>
+        </li>
+        <li>
+            <label for="second_surname">Segundo Apellido:</label>
+            <input type="text" id="second_surname" name="txt_second_surname" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,20}"" required/><br>
+        </li>
+        <li>
+            <label for=" age">Edad:</label>
+            <input type="number" id="age" name="age" required minlength="2" maxlength="2"><br>
+        </li>
+        <li>
+            <label for="home">Dirección:</label>
+            <input type="text" id="home" name="txt_home" required minlength="5" maxlength="30"><br>
+        </li>
+        <li>
+            <label for="number_home">Numeración:</label>
+            <input type="number" id="number_home" name="number_home" required maxlength="7"><br>
+        </li>
+        <li>
+            <label for="c&c">Comuna y Ciudad:</label>
+            <input type="text" id="c&c" name="txt_c&c" required maxlength="30"><br>
+        </li>
+        <li>
+            <p><br><label>Es alérgico?:</label><br></p>
+            <p><input type="radio" name="opcion" value="1"> Sí
+            <input type="radio" name="opcion" value="2" checked> No<br>
+        <li>
+            <label for="medication">Medicamentos contraindicados:</label><br>
+            <textarea id="m" name="m" maxlength="50" rows="4"></textarea><br>
+        </li>
+        </ul>
+</form>
+<h2>Enviar Formulario</h2>
+<form name="Enviar Formulario" method="post" action="/send.php"></form>
+<input type="submit" value="Enviar datos" src="C:\Curso Desarrollo de Ap\Módulo 2\Sesión 1\Logo.png"; height="80"
+    width="170"> </input>
+
+</body>
+
+</html>
