@@ -1,0 +1,20 @@
+title {
+    color: rgb(9, 70, 124);
+}
+head {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid rgb(189, 12, 12);
+}
+button {
+    border-color: blue;
+    width:auto
+}
+body {
+    color:blueviolet;
+    margin-top: 10;
+}
+text {
+background-color: blue;
+}
